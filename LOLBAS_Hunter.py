@@ -11,8 +11,8 @@ import re
 import json
 import urllib.parse
 
-# Gets list from XSOAR
-listRAW = demisto.executeCommand("getList", {"listName":"LOLBAS_Simple_2"})
+# Gets list from XSOAR <TODO - write part of code here to get what ever list location you're using
+listRAW = # TODO <> PYTHON CODE FOR GETTING LIST <>
 
 # Makes list a string object
 list_str = json.dumps(listRAW)
